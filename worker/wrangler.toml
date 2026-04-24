@@ -42,15 +42,15 @@ PREFIX = "tmp"
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
 # PASSWORDS = ["123", "456"]
 # For admin panel
-# ADMIN_PASSWORDS = ["123", "456"]
+# ADMIN_PASSWORDS = ["w328229"]
 # warning: no password or user check for admin portal
 # DISABLE_ADMIN_PASSWORD_CHECK = false
 # ADMIN CONTACT, CAN BE ANY STRING
 # ADMIN_CONTACT = "xx@xx.xxx"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
-DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
+DEFAULT_DOMAINS = ["skyloo.org"] # domain name for no role users
+DOMAINS = ["skyloo.org"] # all domain names
 # Allow /api/new_address and /admin/new_address to accept subdomains that end with an allowed base domain
 # e.g. if DOMAINS contains "abc.com", API can accept "team.abc.com" and "dev.team.abc.com"
 # ENABLE_CREATE_ADDRESS_SUBDOMAIN_MATCH = true
@@ -67,7 +67,7 @@ DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "xxx"
+JWT_SECRET = "skyloo-temp-mail-2026-secret-key"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
